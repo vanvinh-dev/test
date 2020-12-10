@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.listen('7000',function(){
+app.listen('7001', function () {
     console.log('running port 7000')
 })
 module.exports = app;
